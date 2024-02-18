@@ -16,7 +16,7 @@ DETECTION_RESULT = None
 
 def lineme():
   url = 'https://notify-api.line.me/api/notify'
-  token = 'g6SAnsGGLWX8YrS1HuNOmxvQL3G9IsurvcnTvBy5r'
+  token = '9g6SAnsGGLWX8YrS1HuNOmxvQL3G9IsurvcnTvBy5r'
   headers = {'Authorization': 'Bearer ' + token}
   data = {'message':'偵測異常通知'}
   image=open('line_notify.jpg', 'rb')
